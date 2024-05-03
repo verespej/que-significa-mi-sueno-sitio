@@ -1,0 +1,4 @@
+baseURL = 'https://quesignificamisueno.com/'
+languageCode = 'es-us'
+title = 'Que Significa Mi Sueño?'
+theme = 'ananke'
