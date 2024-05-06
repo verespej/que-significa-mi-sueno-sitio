@@ -1,0 +1,22 @@
+@keyframes fadeInOut {
+  0%, 20%, 80%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.section.intro {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .intro-text-container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .continue-symbol-container {
+    animation: fadeInOut 5s ease-in-out infinite;
+  }
+}

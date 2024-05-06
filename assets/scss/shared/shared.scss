@@ -1,0 +1,40 @@
+@import "bootstrap";
+
+@import "fonts";
+@import "utilities";
+
+@import "header";
+@import "footer";
+
+@import "../sections/hero";
+@import "../sections/brands";
+@import "../sections/portfolio";
+@import "../sections/services";
+@import "../sections/testimonials";
+@import "../sections/cta";
+@import "../sections/intro";
+@import "../sections/scenario";
+
+@import "../sections/blog-list";
+@import "../sections/blog-single";
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-on-visible {
+  opacity: 0;
+}
+
+.fade-in-on-visible-animation {
+  animation-delay: 0.1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in;
+}

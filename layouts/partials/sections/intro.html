@@ -1,0 +1,22 @@
+<section class="section intro py-5">
+  {{ with .content.intro_text }}
+    <div class="container intro-text-container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
+        </div>
+      </div>
+    </div>  
+  {{ end }}
+  {{ with .content.continue_symbol }}
+    <div class="container continue-symbol-container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="fs-1 fw-bold text-center ">
+            {{ . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</section>

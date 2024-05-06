@@ -1,0 +1,10 @@
+enabled: true
+id: "scenario"
+
+content:
+  scenario_text:
+    - "La mente inconsciente es poderosa."
+    - "Y, cuando dormimos, ese poder se desata."
+    - "Los sueños nos dan vislumbres del mundo oculto de nuestro inconsciente."
+    - "Y dentro de esas visiones hay mensajes poderosos."
+    - "Pero, a veces, necesitamos ayuda para entenderlos..."

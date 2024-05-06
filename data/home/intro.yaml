@@ -1,0 +1,6 @@
+enabled: true
+id: "intro"
+
+content:
+  intro_text: "¿Qué significa mi sueño?"
+  continue_symbol: "⌄"

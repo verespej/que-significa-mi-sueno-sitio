@@ -1,0 +1,13 @@
+<section class="section scenario py-5">
+  {{ with .content.scenario_text }}
+    <div class="container scenario-text-container">
+      {{ range . }}
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="text-line fade-in-on-visible">{{ . }}</div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>
